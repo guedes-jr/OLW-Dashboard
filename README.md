@@ -17,6 +17,17 @@ O projeto consiste em um sistema que consome uma api de uma inteligência artifi
 - Laravel
 - Docker
 
+## Iniciar o projeto
+Comando para iniciar o contênier do docker e o serviço do laravel:
+```sh
+./vendor/bin/sail up -d
+```
+
+Criar uma migration
+```sh
+./vendor/bin/sail artisan make:migration
+```
+
 ## Licença
 
 A estrutura Laravel é um software de código aberto licenciado sob a [licença MIT](https://opensource.org/licenses/MIT).
