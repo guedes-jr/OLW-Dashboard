@@ -25,7 +25,17 @@ Comando para iniciar o contênier do docker e o serviço do laravel:
 
 Criar uma migration
 ```sh
-./vendor/bin/sail artisan make:migration
+./vendor/bin/sail artisan make:migration create_address_table
+```
+
+Efetuar o migrate
+```sh
+./vendor/bin/sail artisan migrate
+```
+
+Criar uma model
+```sh
+./vendor/bin/sail artisan make:model Address
 ```
 
 ## Licença
